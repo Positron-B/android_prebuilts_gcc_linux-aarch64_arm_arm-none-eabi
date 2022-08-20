@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install/share/gcc-11.2.1/python'
-libdir = '/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install/arm-none-eabi/lib/thumb/v6-m/nofp'
+pythondir = '/data/jenkins/workspace/GNU-toolchain/arm-11-2/build-arm-none-eabi/install/share/gcc-11.3.1/python'
+libdir = '/data/jenkins/workspace/GNU-toolchain/arm-11-2/build-arm-none-eabi/install/arm-none-eabi/lib/thumb/v6-m/nofp'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
